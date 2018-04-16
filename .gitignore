@@ -2,3 +2,4 @@ mvnw
 mvnw.cmd
 workfront-bean-service/.mvn/wrapper/maven-wrapper.jar
 workfront-bean-service/.mvn/wrapper/maven-wrapper.properties
+.DS_Store
