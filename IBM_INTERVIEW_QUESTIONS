@@ -1,0 +1,29 @@
+** Explain the events when a url is entered into a browser start to finish
+
+
+
+** Given a string of repeated characters, the task is to rearrange characters in a string such that no two adjacent characters are same.
+
+** What is the difference between processes and threads?
+
+** Web/async nature of js. Async fetch problem.
+
+** Given a 2 dimensional array of landing and leaving time of planes, get the maximum number of planes in the airport.
+
+**  What is the difference between deep copy and shallow copy? 
+
+** programming: string manipulation, map, set 
+
+** Java polymorphism, 3 coding questions, binary search  
+
+** Two Sum Algorithm 
+
+** function nStrStr(str1, str2) How many str1 appeared in str2  
+
+** Define polymorphism 
+
+** Given a list of passages filter out the duplicate passages by comparing only alphanumeric characters.
+
+** Given an input of employee names and their managers (john->mary) create a way to search for the closest common manager given two employees that were having conflict.
+
+**  find missing number problem
