@@ -27,3 +27,123 @@
 ** Given an input of employee names and their managers (john->mary) create a way to search for the closest common manager given two employees that were having conflict.
 
 **  find missing number problem
+
+** hashmap txt manipulation, reverse string
+
+** Tree questions, sorting question, regex question through timed 
+
+** What is fastest: Heap, Merge, or Quick sort.  
+
+**  basic string and arrays questions. BST  
+
+** What is a deadlock?  
+
+** Write a method that determines if a string is a palindrome.
+
+** reverse a string, and capitalize correctly: Hello World -> Dlrow Olleh  
+
+** Write a method to flatten and re-arrange a json structure.  
+
+** Create a random string (without using library functions) with a given length. 
+
+** Sort an array by mod3 -
+All elements of mod3=0 would be before all elements of mod3=1... So on. Do it in linear time.
+
+** Print the power set of the given set.  
+
+** Explain how hash table works. 
+
+** What is the difference between a pointer and a reference?  
+
+** Why is the main method in a java class static ?  
+
+** File traversal questions, fizz buzz type question, concept questions, oop question  
+
+** implement some basic data structures like trees, merge sort, finally merging an array of linkedlists
+
+** Why IBM?
+
+** What do you know about IBM?
+
+** What interests you about the position?
+
+** Parallel querying of databases
+
+** concurrency design  
+
+
+** Fibonacci series? 
+
+** Given a level of a tree (level k) , print all of nodes at that level.
+
+** the rotation of the BST.
+
+** write pseudo code to add a node to a singly linked list
+
+** What is the difference between a list and a set?  
+
+**How would you design an ATM? 
+
+** Do an in-order BST walk without additional data structures and without recursion. 
+
+** Binary Tree and hash tables with its collision resolutions. 
+
+** binary search tree implementation with Java.  
+
+** What is reflection in java?  
+
+** Sort the integers in an array
+
+** Design an elevator system
+
+** Some question involving linkedlist and hash table.  
+
+** What is polymorphism?  
+
+** If you were given a prototype pen (yes, a pen) how would you go about testing it?  
+
+** Name three Linux commands and how they work  
+
+** How do you list the permissions of a file?  
+
+** What would you do differently with x project (past project)?  
+
+** Why IBM?  
+
+** How to implement a hashmap, and write the code.
+
+** Given a linkedlist, how to detect whether it has a cycle ,if has, how to find out where is the cycle begin.
+
+** Print the values in 2D matrix in spiral order. The dimension of the matrix is n x m. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
