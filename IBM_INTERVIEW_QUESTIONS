@@ -16,7 +16,44 @@
 
 ** Java polymorphism, 3 coding questions, binary search  
 
-** Two Sum Algorithm 
+** Two Sum Algorithm
+public static void main(String[] args) {
+		int[] arr = new int[] { 1, 2, 2, 2, 3, 4, 4, 4, 1, 0, 5 };
+		int sum = 5;
+		System.out.println("Value pairs");
+		Map<Integer, Integer> pairs = getUniqueSomePairs(arr, sum);
+		pairs.forEach((k, v) -> System.out.println(k + " " + v));
+		System.out.println("Index pairs");
+		Map<Integer, Integer> indices = getUniqueSomePairIndices(arr, sum);
+		indices.forEach((k, v) -> System.out.println(k + " " + v));
+
+	}
+
+	private static Map<Integer, Integer> getUniqueSomePairs(int[] arr, int sum) {
+		Set<Integer> values = new HashSet<>();
+		Map<Integer, Integer> uniquePairs = new HashMap<>();
+		for (int i = 0; i < arr.length; i++) {
+			int diff = sum - arr[i];
+			if (values.contains(diff) && !uniquePairs.containsKey(diff) && !values.contains(arr[i])) {
+				uniquePairs.put(diff, arr[i]);
+			} else
+				values.add(arr[i]);
+		}
+		return uniquePairs;
+	}
+
+	private static Map<Integer, Integer> getUniqueSomePairIndices(int[] arr, int sum) {
+		Map<Integer, Integer> pairs = new HashMap<>();
+		Map<Integer, Integer> uniquePairs = new HashMap<>();
+		for (int i = 0; i < arr.length; i++) {
+			int diff = sum - arr[i];
+			if (pairs.containsKey(diff) && !uniquePairs.containsKey(pairs.get(diff)) && !pairs.containsKey(arr[i])) {
+				uniquePairs.put(pairs.get(diff), i);
+			} else
+				pairs.put(arr[i], i);
+		}
+		return uniquePairs;
+	}
 
 ** function nStrStr(str1, str2) How many str1 appeared in str2  
 
